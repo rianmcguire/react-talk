@@ -11,3 +11,9 @@ Running locally
 ---------------
 
     npm install && grunt serve
+
+
+Errata
+------
+
+* React doesn't actually diff the virtual DOM with the real DOM. Instead it just diffs the latest virtual DOM with the previous one. Thanks <a href="http://twitter.com/jessemcnelis">@jessemcnelis</a>.
